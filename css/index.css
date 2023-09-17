@@ -1,0 +1,344 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(249, 248, 248);
+}
+
+nav{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: #888888;
+    box-shadow: 0 4px 13px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    z-index: 1;
+}
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+.nav-item, .nav-logo{
+    display: inline;
+    padding: 20px 15px;
+    color: var(--dark);
+    font-size: 19px;
+    font-weight: 600;
+    outline: none;
+}
+.nav-logo-link {
+    text-decoration: none;
+}
+.nav-logo{
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #04bcf9;
+    padding: 18px 25px 18px 25px;
+    font-size: 25px;
+}
+  .navbar a:hover {
+    color: #04bcf9;
+    cursor: pointer;
+  }
+
+.display-profile{
+    display: flex;
+    flex-direction: row;
+}
+.display-content{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 45%;
+    max-width: 55%;
+}
+.profile-img{
+    display: flex;
+    flex: 0 0 42%;
+    max-width: 45%;
+}
+.display-profile-img{
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+}
+
+.display-content{
+    padding: 15% 0% 0% 7%;
+    font-size: x-large;
+}
+.profile-txt{
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+}
+.profile-text{
+    color: #04bcf9;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.profile-heading{
+    font-size: 60px;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.profile-btn{
+    background-color: #04bcf9;
+    color: white;
+    font-size: large;
+    padding: 15px;
+    border: 2px solid #04bcf9 ;
+    border-radius: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 200px;
+}
+.profile-btn:hover{
+    background-color: #19c4fd;
+}
+/*Skills and Education*/
+.container-SE{ 
+  max-width: 1280px; 
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 35px;
+  padding-top: 1.5rem; 
+  padding-bottom: 1.5rem; 
+  padding-top: 1.25rem; 
+  font-size: x-large;
+}
+.container-SE-row{
+  display: flex;
+  padding-bottom: 40px;
+}
+.container-Skill-row{
+  flex:0 0 55%;
+  max-width: 55%;
+}
+.skills-row{
+  display: flex;
+  flex:0 0 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skill-sep{
+  width: 50%;
+}
+.skills-roww{
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+}
+
+.progress {
+  width: 90%;
+  background-color: #dededee1;
+  border-radius: 4px;
+  height: 6px;
+  overflow: hidden;
+}
+
+.progress-child {
+  height: 100%;
+  background-color: #4caf50; /* Progress bar color */
+  width:  0;
+}
+
+
+.container-Edu-row{
+  display: flex;
+}
+
+.display-col{
+  padding: 38px;
+}
+
+.display-col h4{
+  text-decoration: underline;
+}
+
+.display-col h6{
+  color: #6a6a70;
+}
+
+/*Project */
+.poject-container{
+  max-width: 1280px; 
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 35px;
+  padding-top: 1.5rem; /* Adjust padding according to your design */
+  padding-bottom: 1.5rem; /* Adjust padding according to your design */
+  padding-top: 1.25rem;
+  background-color: white;
+  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
+}
+.project-heading{
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 2.5rem;
+}
+  
+.portfolio-container-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    gap: 1rem; /* Adjust the gap according to your design */
+  }
+  
+.portfolio-item-col{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    max-width: 30%;
+}
+.portfolio-img{
+    position: relative;
+    overflow: hidden;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+.portfolio-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .portfolio-btn a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+  }
+  
+  .portfolio-btn a i {
+    font-size: inherit;
+  }
+
+  .img-btn{
+        padding: 0px 2px;
+        color: #fff;
+        background-color: #04bcf9;
+        border: 2px solid #04bcf9;
+        border-radius: 10px; 
+        border-width: 2px;
+        margin-right: 0.25rem;
+        margin-left: 0.25rem;   
+  }
+  .img-btn:hover{
+        background-color: #1ac6ff;
+        border-color: #1ac6ff;
+  }
+.link::before {
+    content: "view project"; 
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.link-code::before{
+  content: "view code";
+  font-size: large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+/* Contact */
+.contact-container{
+  font-size: larger;
+  max-width: 1280px; 
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 35px;
+  padding-top: 1.5rem; /* Adjust padding according to your design */
+  padding-bottom: 1.5rem; /* Adjust padding according to your design */
+  padding-top: 1.25rem;
+
+}
+
+.contact-roww{
+  display: flex;
+  justify-content: space-between;
+}
+.contact-row{
+  display: flex; 
+}
+.contact-row .col{
+  flex:0 0 55%;
+  max-width: 45%;
+  padding: 20px;
+}
+.contact-row .col p, .contact-row .col hr{
+  color:#6a6a70 ;
+  font-size: medium;
+}
+.col-6{
+    flex: 0 0 auto;
+    width: 50%;
+
+}
+.contact-row .form-col .contact input, textarea{
+  flex: 0 0 45%;
+  width: 100%;
+  max-width: 100%;
+  padding: 15px;
+  margin: 10px;
+}
+input, textarea{
+  border-radius: 5px;
+}
+
+input:focus,textarea:focus{
+  outline: #fff;
+  box-shadow: 0 0 10px  #04bcf9;
+}
+.hello-button,.contact-button{
+  border: 2px outset #04bcf9;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 14px;
+  margin: 10px;
+  background-color: #04bcf9;
+  color: #fff;
+  cursor: pointer;
+}
+
+.follow-row a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.follow-row a i {
+  margin-right: 5px;
+}
+/*follow icons*/
+.linkedin i { color: #0077B5; } /* LinkedIn icon color */
+.instagram i { color: #E4405F; } /* Instagram icon color */
+.youtube i { color: #FF0000; } /* YouTube icon color */
+.github i { color: #211F1F; } /* github icon color */
+
+/* footer*/
+.footer-maincontainer{
+  background-color: black;
+  color: white;
+  padding: 20px 100px 20px 100px;
+}
+
+.footer-container .col a{
+  color:#04bcf9 ;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
