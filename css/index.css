@@ -451,6 +451,21 @@ nav{
   font-size: medium;
 }
 
+.container-Edu-row{
+  display: flex;
+}
+
+.display-col{
+  flex: 0 0 90%;
+  max-width: 90%;
+  padding: 38px;
+}
+
+.display-col h4{
+  text-decoration: underline;
+  width: 100%;
+}
+
 /*project*/
 
 .project-heading{
