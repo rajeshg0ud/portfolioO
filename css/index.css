@@ -365,6 +365,7 @@ input:focus,textarea:focus{
   /*navigationn bar*/
 nav{ 
   padding: 15.5px;
+  justify-content: space-evenly;
 }
 .nav-item, .nav-logo{
   display: inline;
@@ -379,7 +380,6 @@ nav{
   font-weight: 500;
   outline: none;
   text-decoration: none;
-  justify-content: space-evenly;
 }
 
 .nav-logo{
