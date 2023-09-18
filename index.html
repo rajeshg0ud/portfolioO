@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--NavBar Start-->
-    <nav>
+    <nav  id="navbar" class="hidden-nav">
         <div class="navbar">
             <ul>
                 <li class="nav-item"><a class="nav-logo-link" href="index.html">
@@ -269,6 +269,7 @@
     </div>
     <!--Footer end-->
 
+    <!--skill progress js-->
     <script>
         const progressBars = document.querySelectorAll('.progress-child');
 
@@ -276,7 +277,7 @@
         const ariaValueNow = parseFloat(progressBar.getAttribute('aria-valuenow'));
         progressBar.style.width = `${ariaValueNow}%`;});
     </script>
-
+<!--contact js-->
 <script>
     document.getElementById('contactForm').addEventListener('submit', function(event) {
         event.preventDefault();
@@ -284,7 +285,7 @@
         alert('Unable to send email, please try again later!');
     });
 </script>
-
+<!--navigation click js-->
 <script>
     document.querySelectorAll('a.nav-link').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
@@ -299,6 +300,26 @@
             });
         });
     });
+</script>
+<!--nav-bar hidden js-->
+<script>
+    const navbar = document.getElementById('navbar');
+let isNavbarHidden = true;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    if (isNavbarHidden) {
+      navbar.classList.remove('hidden-nav');
+      isNavbarHidden = false;
+    }
+  } else {
+    if (!isNavbarHidden) {
+      navbar.classList.add('hidden-nav');
+      isNavbarHidden = true;
+    }
+  }
+});
+
 </script>
 </body>
 </html>
