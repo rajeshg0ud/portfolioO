@@ -47,6 +47,10 @@ nav{
     color: #04bcf9;
     cursor: pointer;
   }
+.hidden-nav {
+    display: none;
+  }
+
 /*introduction*/
 
 .display-profile{
