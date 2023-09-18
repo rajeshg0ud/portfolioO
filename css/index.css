@@ -389,17 +389,19 @@ nav{
   padding: 0px;
   margin: 0px;
   font-size: 30px;
-  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1); 
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-text{
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 20px;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-heading{
   font-size: 40px;
   margin-top: 10px;
   margin-bottom: 15px;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-btn{
   font-size: small;
