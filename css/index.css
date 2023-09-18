@@ -363,9 +363,13 @@ input:focus,textarea:focus{
 nav{ 
   padding: 16px;
 }
-.nav-item, .nav-logo,  .nav-link{
+.nav-item, .nav-logo{
   display: inline;
-  padding: 10px 8px;
+  padding: 0;
+  margin: 0;
+}
+.nav-link{
+  padding: 8px 5px;
   color: var(--dark);
   font-size: 13px;
   font-weight: 500;
@@ -373,9 +377,9 @@ nav{
   text-decoration: none;
 }
 .nav-logo{
-  margin-left: 2px;
+  margin-left: 1px;
   padding: 5px 6px;
-  font-size: 20px;
+  font-size: 19px;
   color: white;
 }
 
