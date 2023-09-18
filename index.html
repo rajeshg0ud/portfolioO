@@ -18,17 +18,17 @@
                 <li class="nav-item"><a class="nav-logo-link" href="index.html">
                     <h1 class="nav-logo">|'R'|</h1>
                 </a></li>
-                <li class="nav-item"><a class="nav-link">Home</a> </li>
-                <li class="nav-item"><a class="nav-link">Skills</a> </li>
-                <li class="nav-item"><a class="nav-link">Projects</a> </li>
-                <li class="nav-item"><a class="nav-link">Contact</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a> </li>
             </ul>
         </div>
     </nav>
     <!--NavBar End-->
     <!--Header Start-->
     <div>
-        <div class="container">
+        <div id="home"class="container">
             <div class="display-profile">
                 <div class="display-content">
                     <h2 class="profile-txt">I'm</h2>
@@ -46,7 +46,7 @@
 
     <!-- Skills Section Start -->
     <div>
-        <div class="container-SE">
+        <div id="skills" class="container-SE">
             <div class="container-SE-row">
                 <div class="container-Skill-row">
                     <h1 >Skills & Experience</h1>
@@ -143,7 +143,7 @@
     <!-- Expertise End -->
 
     <!-- Projects Start -->
-    <div class="project-container">
+    <div  id="projects" class="project-container">
         <div class="container">
             <div class="project-heading">My Projects</div>
             <div class="portfolio-container-row">
@@ -211,7 +211,7 @@
 
     <!--Contact Start-->
     
-    <div class="contact-container">
+    <div  id="contact" class="contact-container">
         <div class="contact-container">
             <div class="contact-roww">
                 <div class="col">
@@ -285,6 +285,20 @@
     });
 </script>
 
+<script>
+    document.querySelectorAll('a.nav-link').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
 
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
 </body>
 </html>
