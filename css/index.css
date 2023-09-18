@@ -25,7 +25,7 @@ nav{
   }
 .nav-item, .nav-logo{
     display: inline;
-    padding: 20px 15px;
+    padding: 17px 15px;
     color: var(--dark);
     font-size: 19px;
     font-weight: 600;
