@@ -47,10 +47,10 @@ nav{
     color: #04bcf9;
     cursor: pointer;
   }
-.hidden-nav {
+  .hidden-nav {
     display: none;
   }
-
+  
 /*introduction*/
 
 .display-profile{
@@ -360,17 +360,17 @@ input:focus,textarea:focus{
 /*mobile version*/
 @media (max-width: 767px) {
   /*navigationn bar*/
-
 nav{ 
   padding: 16px;
 }
-.nav-item, .nav-logo{
+.nav-item, .nav-logo,  .nav-link{
   display: inline;
   padding: 10px 8px;
   color: var(--dark);
   font-size: 13px;
   font-weight: 500;
   outline: none;
+  text-decoration: none;
 }
 .nav-logo{
   margin-left: 2px;
