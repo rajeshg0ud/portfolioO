@@ -511,6 +511,7 @@ nav{
 /*contact*/
 .contact-container{
   font-size: medium;
+  margin-left: 5px;
 }
 .contact-row{
   display: flex; 
