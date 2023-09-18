@@ -373,7 +373,7 @@ nav{
 }
     
 .nav-link{
-  padding: 6.7px 6.7px;
+  padding: 6px 6px;
   color: var(--dark);
   font-size: 13px;
   font-weight: 500;
