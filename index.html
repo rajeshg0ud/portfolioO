@@ -16,7 +16,7 @@
         <div class="navbar">
             <ul>
                 <li class="nav-item"><a class="nav-logo-link" href="index.html">
-                    <h1 class="nav-logo">[R]</h1>
+                    <h1 class="nav-logo">|'R'|</h1>
                 </a></li>
                 <li class="nav-item"><a class="nav-link">Home</a> </li>
                 <li class="nav-item"><a class="nav-link">Skills</a> </li>
@@ -143,7 +143,7 @@
     <!-- Expertise End -->
 
     <!-- Projects Start -->
-    <div class="poject-container">
+    <div class="project-container">
         <div class="container">
             <div class="project-heading">My Projects</div>
             <div class="portfolio-container-row">
@@ -240,25 +240,22 @@
                         <a  href="https://www.instagram.com/tenacious_developer" target="_blank" class="instagram"><i class="fab fa-instagram"></i> </a>
                         <a  href="https://www.youtube.com/@TenaciousDeveloper" target="_blank" class="youtube"><i class="fab fa-youtube"></i> </a>
                         <a href="https://github.com/rajeshg0ud" target="_blank"  class="github"><i class="fab fa-github"></i> </a>
-                      </div>                      
+                    </div>                      
                     <!--Follow end-->
                 </div>
 
                 <div class="form-col">
-                    <form class="contact">
-                                    <input class="from-control" placeholder="Your Name">
-                                
-                                    <input class="from-control" placeholder="Your Email">
-                               
-                                    <input class="from-control" placeholder="Subject">
-                                
-                                    <textarea class="from-control" placeholder="Message"></textarea>
-
+                    <form class="contact" id="contactForm">
+                        <input class="from-control" type="text" placeholder="Your Name" name="name" required>
+                        <input class="from-control" type="email" placeholder="Your Email" name="email" required>
+                        <input class="from-control" type="text" placeholder="Subject" name="subject" required>
+                        <textarea class="from-control" placeholder="Message" name="message" required></textarea>
                         <div class="col-12">
-                            <button class="contact-button" >Send Message</button>
+                            <button class="contact-button" type="submit">Send Message</button>
                         </div>
                     </form>
-                </div>
+                </div>                
+                        
             </div>
         </div>
     </div>
@@ -279,6 +276,15 @@
         const ariaValueNow = parseFloat(progressBar.getAttribute('aria-valuenow'));
         progressBar.style.width = `${ariaValueNow}%`;});
     </script>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        alert('Unable to send email, please try again later!');
+    });
+</script>
+
 
 </body>
 </html>
