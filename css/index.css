@@ -465,7 +465,7 @@ nav{
 /*project*/
 
 .project-heading{
-  font-size: 2.1rem;
+  font-size: large;
   font-weight: 700;
   line-height: 1.2;
   padding-bottom: 2.5rem;
@@ -533,7 +533,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: small;
 }
 .contact-roww .col h1{
-  font-size:x-large;
+  font-size:large;
 }
 .contact-row .form-col .contact input, textarea{
   flex: 0 0 95%;
