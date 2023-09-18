@@ -448,7 +448,7 @@ nav{
 /*project*/
 
 .project-heading{
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   font-weight: 700;
   line-height: 1.2;
   padding-bottom: 2.5rem;
@@ -459,14 +459,14 @@ nav{
   flex-wrap: wrap;
   margin-right: -0.5rem;
   margin-left: -0.5rem;
-  gap: 1rem; /* Adjust the gap according to your design */
+  gap: 0.8rem; /* Adjust the gap according to your design */
 }
 
 .portfolio-item-col{
   display: flex;
   flex-wrap: wrap;
   flex: 0 0 auto;
-  max-width: 48%;
+  max-width: 45%;
 }
 .portfolio-img{
   position: relative;
@@ -477,15 +477,12 @@ nav{
   height: auto;
   border-radius: 10px; 
 }
-.portfolio-btn {
-  justify-content: space-around;
-}
 
 .portfolio-btn a {
   text-decoration: none;
   display: inline-block;
   margin: 5px;
-  font-size: 10px;
+  font-size: 5px;
 }
 
 .portfolio-btn a i {
