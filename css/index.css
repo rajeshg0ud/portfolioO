@@ -430,14 +430,15 @@ nav{
   height: auto;
   margin: 5%;
 }
+    /*skills*/
 .container-SE{ 
-  font-size: large;
+  font-size: medium;
 }
 .container-SE-row{
   display: flex;
   flex-direction: column;
   padding-bottom: 40px;
-  margin-left: 13%;
+  margin-left: 7%;
 }
 .container-Skill-row{
   flex:0 0 90%;
