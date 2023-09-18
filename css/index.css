@@ -23,13 +23,14 @@ nav{
     margin: 0;
     padding: 0;
   }
-.nav-item, .nav-logo{
+.nav-item, .nav-logo, .nav-link{
     display: inline;
     padding: 20px 15px;
     color: var(--dark);
     font-size: 19px;
     font-weight: 600;
     outline: none;
+    text-decoration: none;
 }
 .nav-logo-link {
     text-decoration: none;
@@ -39,7 +40,7 @@ nav{
     color: #ffffff;
     border: 4px ridge #04bcf9;
     background-color: #04bcf9;
-    padding: 14px 21px 14px 21px;
+    padding: 14px 16px;
     font-size: 25px;
 }
   .navbar a:hover {
