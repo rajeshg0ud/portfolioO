@@ -361,7 +361,7 @@ input:focus,textarea:focus{
 @media (max-width: 767px) {
   /*navigationn bar*/
 nav{ 
-  padding: 16px;
+  padding: 15.5px;
 }
 .nav-item, .nav-logo{
   display: inline;
@@ -369,19 +369,21 @@ nav{
   margin: 0;
 }
 .nav-link{
-  padding: 8px 7.5px;
+  padding: 8.1px 8.1px;
   color: var(--dark);
   font-size: 13px;
   font-weight: 500;
   outline: none;
   text-decoration: none;
 }
+
 .nav-logo{
-  margin-left: 1px;
+  margin: 2px;
   padding: 5px 6px;
   font-size: 19px;
   color: white;
 }
+
 
 /*introdution or profile*/
 
