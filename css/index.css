@@ -374,7 +374,7 @@ nav{
 }
     
 .nav-link{
-  padding: 5.5px 5.5px;
+  padding: 5.4px 5.4px;
   color: var(--dark);
   font-size: 13px;
   font-weight: 500;
@@ -383,8 +383,8 @@ nav{
 }
 
 .nav-logo{
-  margin: 1.5px;
-  padding: 5px 6px;
+  margin: 0.5px;
+  padding: 5px 5.2px;
   font-size: 19px;
   color: white;
 }
