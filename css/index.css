@@ -25,7 +25,7 @@ nav{
   }
 .nav-item, .nav-logo{
     display: inline;
-    padding: 17px 15px;
+    padding: 20px 15px;
     color: var(--dark);
     font-size: 19px;
     font-weight: 600;
@@ -379,7 +379,7 @@ nav{
   .display-profile{
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 .display-content{
   padding: 15% 0% 0% 7%;
@@ -388,20 +388,20 @@ nav{
 .profile-txt{
   padding: 0px;
   margin: 0px;
-  font-size: 30px;
+  font-size: 24px;
   text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-text{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   margin-bottom: 20px;
-    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-heading{
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 10px;
   margin-bottom: 15px;
-    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-btn{
   font-size: small;
@@ -432,7 +432,6 @@ nav{
   height: auto;
   margin: 5%;
 }
-  
 /*skills*/
 .container-SE{ 
   font-size: medium;
@@ -448,7 +447,7 @@ nav{
   max-width: 85%;
 }
 .container-Skill-row h1{
-  font-size: medium;
+  font-size: large;
 }
 
 .container-Edu-row{
@@ -462,7 +461,6 @@ nav{
 .display-col h4{
   text-decoration: underline;
 }
-
 
 /*project*/
 
@@ -492,7 +490,7 @@ nav{
   overflow: hidden;
 }
 .img-fluid{
-  max-width: 97%;
+  max-width: 95%;
   height: auto;
   border-radius: 10px; 
 }
@@ -500,18 +498,26 @@ nav{
 .portfolio-btn a {
   text-decoration: none;
   display: inline-block;
-  margin: 5px;
-  font-size: 5px;
-}
-
-.portfolio-btn a i {
+  margin: 4px;
+  padding: 4px;
   font-size: x-small;
 }
 
+
+.link::before {
+  content: "view project"; 
+  font-size: x-small;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link-code::before{
+content: "view code";
+font-size: x-small;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*contact*/
 .contact-container{
   font-size: medium;
-  margin-left: 5px;
+  margin-left: -9px;
 }
 .contact-row{
   display: flex; 
