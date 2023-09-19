@@ -307,7 +307,7 @@
 let isNavbarHidden = true;
 
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 0) {
+  if (window.scrollY > 750) {
     if (isNavbarHidden) {
       navbar.classList.remove('hidden-nav');
       isNavbarHidden = false;
