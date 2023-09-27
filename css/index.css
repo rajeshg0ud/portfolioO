@@ -5,6 +5,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(249, 248, 248);
 }
+/*navigationn bar*/
 
 nav{
     position: fixed; 
@@ -16,19 +17,23 @@ nav{
     box-shadow: 0 4px 13px 5px rgba(0, 0, 0, 0.1); 
     padding: 20px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 .navbar ul {
     list-style-type: none; 
     margin: 0;
     padding: 0;
   }
-.nav-item, .nav-logo{
+.nav-item, .nav-logo, .nav-link{
     display: inline;
+    margin: 0 10px;
     padding: 20px 15px;
     color: var(--dark);
     font-size: 19px;
     font-weight: 600;
     outline: none;
+    text-decoration: none;
 }
 .nav-logo-link {
     text-decoration: none;
@@ -36,14 +41,24 @@ nav{
 .nav-logo{
     margin-left: 10px;
     color: #ffffff;
+    border: 4px ridge #04bcf9;
     background-color: #04bcf9;
-    padding: 18px 25px 18px 25px;
+    padding: 14px 16px;
     font-size: 25px;
+}
+.nav-logo:hover{
+  background-color: #1ac6ff;
+        border-color: #1ac6ff;
 }
   .navbar a:hover {
     color: #04bcf9;
     cursor: pointer;
   }
+  .hidden-nav {
+    display: none;
+  }
+  
+/*introduction*/
 
 .display-profile{
     display: flex;
@@ -59,7 +74,9 @@ nav{
     display: flex;
     flex: 0 0 42%;
     max-width: 45%;
+    margin-top: 30px;
 }
+
 .display-profile-img{
     max-width: 100%;
     height: auto;
@@ -74,29 +91,33 @@ nav{
     padding: 0px;
     margin: 0px;
     font-size: 40px;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-text{
     color: #04bcf9;
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 25px;
+    text-shadow: 5px 5px 3px rgba(1, 41, 74, 0.1); 
 }
 .profile-heading{
     font-size: 60px;
     padding: 0px;
     margin-top: 15px;
     margin-bottom: 20px;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1); 
 }
 .profile-btn{
     background-color: #04bcf9;
     color: white;
     font-size: large;
     padding: 15px;
-    border: 2px solid #04bcf9 ;
+    border: 2px outset #04bcf9;
     border-radius: 25px;
     margin-top: 15px;
     cursor: pointer;
     width: 200px;
+    box-shadow:0  5px 5px 3px rgba(0, 0, 0, 0.1) ;
 }
 .profile-btn:hover{
     background-color: #19c4fd;
@@ -168,7 +189,7 @@ nav{
 }
 
 /*Project */
-.poject-container{
+.project-container{
   max-width: 1280px; 
   margin-right: auto;
   margin-left: auto;
@@ -199,16 +220,21 @@ nav{
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 auto;
-    max-width: 30%;
+    max-width: 45%;
+    margin: 1rem;
 }
+
 .portfolio-img{
     position: relative;
     overflow: hidden;
 }
+.portfolio-img h2{
+  color: #0077b7;
+}
 .img-fluid{
     max-width: 100%;
     height: auto;
-    border-radius: 10px; 
+    border-radius: 15px;
 }
 .portfolio-btn {
     display: flex;
@@ -221,6 +247,8 @@ nav{
     display: inline-block;
     margin: 5px;
     font-size: 24px;
+    margin-left: 5rem;
+    margin-right: 6rem;
   }
   
   .portfolio-btn a i {
@@ -228,15 +256,14 @@ nav{
   }
 
   .img-btn{
-        padding: 0px 2px;
+        padding: 0px 3px 4px 3px;
         color: #fff;
         background-color: #04bcf9;
-        border: 2px solid #04bcf9;
-        border-radius: 10px; 
-        border-width: 2px;
+        border: 2px outset #04bcf9;
+        border-radius: 13px; 
         margin-right: 0.25rem;
-        margin-left: 0.25rem;   
-  }
+        margin-left: 0.25rem;  
+        }
   .img-btn:hover{
         background-color: #1ac6ff;
         border-color: #1ac6ff;
@@ -252,6 +279,9 @@ nav{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
   
+#login1{
+  margin-right: 10rem ;
+}
 /* Contact */
 .contact-container{
   font-size: larger;
@@ -312,6 +342,10 @@ input:focus,textarea:focus{
   color: #fff;
   cursor: pointer;
 }
+.hello-button:hover,.contact-button:hover{
+  background-color: #1ac6ff;
+  border-color: #1ac6ff;
+}
 
 .follow-row a {
   margin-right: 10px;
@@ -319,10 +353,11 @@ input:focus,textarea:focus{
 }
 
 .follow-row a i {
+  font-size: larger;
   margin-right: 5px;
 }
 /*follow icons*/
-.linkedin i { color: #0077B5; } /* LinkedIn icon color */
+.linkedin i {  color: #0077B5; } /* LinkedIn icon color */
 .instagram i { color: #E4405F; } /* Instagram icon color */
 .youtube i { color: #FF0000; } /* YouTube icon color */
 .github i { color: #211F1F; } /* github icon color */
@@ -341,4 +376,227 @@ input:focus,textarea:focus{
 .footer-container{
   display: flex;
   justify-content: space-between;
+}
+
+/*mobile version*/
+@media (max-width: 767px) {
+  /*navigationn bar*/
+  nav{ 
+    padding: 15px;
+    justify-content: space-around;
+  }
+  .nav-item, .nav-logo{
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+      
+  .nav-link{
+    padding: 0;
+    padding-left: 5.2px;
+    color: var(--dark);
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .nav-logo{
+    margin: 1.4px;
+    padding: 5px 5px;
+    font-size: 19px;
+    color: white;
+  }
+  
+/*introdution or profile*/
+
+  .display-profile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12%;
+}
+.display-content{
+  padding: 15% 0% 0% 7%;
+  font-size: small;
+}
+.profile-txt{
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
+}
+.profile-text{
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
+}
+.profile-heading{
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
+}
+.profile-btn{
+  font-size: small;
+  padding: 8px;
+  border: 2px outset #04bcf9;
+  border-radius: 22px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 140px;
+}
+.display-content{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  max-width: 85%;
+  padding: 15% 0% 0% 15%;
+}
+
+.profile-img{
+  display: flex;
+  flex: 0 0 90%;
+  max-width: 85%;
+  margin-top: 30px;
+}
+
+.display-profile-img{
+  max-width: 100%;
+  height: auto;
+  margin: 5%;
+}
+/*skills*/
+.container-SE{ 
+  font-size: medium;
+}
+.container-SE-row{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  margin-left: 6%;
+}
+.container-Skill-row{
+  flex:0 0 90%;
+  max-width: 85%;
+}
+.container-Skill-row h1{
+  font-size: large;
+}
+
+.container-Edu-row{
+  display: flex;
+}
+
+.display-col{
+  padding: 38px;
+}
+
+.display-col h4{
+  text-decoration: underline;
+}
+
+/*project*/
+
+.project-heading{
+  font-size: large;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-bottom: 2.5rem;
+}
+
+.portfolio-container-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  gap: 0.8rem; /* Adjust the gap according to your design */
+}
+
+.portfolio-item-col{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 auto;
+  max-width: 97%;
+}
+.portfolio-img{
+  position: relative;
+  overflow: hidden;
+}
+.img-fluid{
+  max-width: 95%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+.portfolio-btn a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px;
+  padding: 4px;
+  font-size: x-small;
+}
+
+
+.link::before {
+  content: "view project"; 
+  font-size: x-small;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link-code::before{
+content: "view code";
+font-size: x-small;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*contact*/
+.contact-container{
+  font-size: medium;
+  margin-left: -12px;
+}
+.contact-row{
+  display: flex; 
+  flex-direction: column-reverse;
+}
+.contact-row .col{
+  flex:0 0 95%;
+  max-width: 90%;
+  padding: 20px;
+}
+.contact-row .col p, .contact-row .col hr{
+  color:#6a6a70 ;
+  font-size: small;
+}
+.contact-roww .col h1{
+  font-size:large;
+}
+.contact-row .form-col .contact input, textarea{
+  flex: 0 0 95%;
+  width: 90%;
+  max-width: 100%;
+  padding: 15px;
+  margin: 10px;
+}
+
+.hello-button,.contact-button{
+  border: 2px outset #04bcf9;
+  border-radius: 15px;
+  padding: 7px;
+  font-size: 12px;
+  margin: 10px;
+  background-color: #04bcf9;
+  color: #fff;
+  cursor: pointer;
+}
+.hello-button{
+  font-size: small;
+  margin: 5px;
+  padding: 4px;
+}
+/* footer*/
+.footer-maincontainer{
+  background-color: black;
+  color: white;
+  padding: 16px 25px;
+  font-size: small;
+}
 }

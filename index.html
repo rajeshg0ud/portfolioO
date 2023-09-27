@@ -12,23 +12,23 @@
 </head>
 <body>
     <!--NavBar Start-->
-    <nav>
+    <nav  id="navbar" class="hidden-nav">
         <div class="navbar">
             <ul>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a> </li>
                 <li class="nav-item"><a class="nav-logo-link" href="index.html">
-                    <h1 class="nav-logo">[R]</h1>
+                    <h1 class="nav-logo">|'R'|</h1>
                 </a></li>
-                <li class="nav-item"><a class="nav-link">Home</a> </li>
-                <li class="nav-item"><a class="nav-link">Skills</a> </li>
-                <li class="nav-item"><a class="nav-link">Projects</a> </li>
-                <li class="nav-item"><a class="nav-link">Contact</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a> </li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a> </li>
             </ul>
         </div>
     </nav>
     <!--NavBar End-->
     <!--Header Start-->
     <div>
-        <div class="container">
+        <div id="home"class="container">
             <div class="display-profile">
                 <div class="display-content">
                     <h2 class="profile-txt">I'm</h2>
@@ -46,7 +46,7 @@
 
     <!-- Skills Section Start -->
     <div>
-        <div class="container-SE">
+        <div id="skills" class="container-SE">
             <div class="container-SE-row">
                 <div class="container-Skill-row">
                     <h1 >Skills & Experience</h1>
@@ -118,7 +118,7 @@
                     </div>
                 </div>
 
-                <div >
+                <div class="container-Skill-row">
                     <h1>Education</h1>
                     <div class="container-Edu-row">
                         <div class="display-col">
@@ -143,12 +143,50 @@
     <!-- Expertise End -->
 
     <!-- Projects Start -->
-    <div class="poject-container">
+    <div  id="projects" class="project-container">
         <div class="container">
             <div class="project-heading">My Projects</div>
             <div class="portfolio-container-row">
+
                 <div class="portfolio-item-col">
                     <div class="portfolio-img">
+                        <h2>ReactCart: Simple E-Commerce App</h2>
+                        <img class="img-fluid"  src="img/project/project3.png" alt="project1">
+                        <div class="portfolio-btn">
+                            <a class="img-btn"   href="https://books-reading-list.vercel.app/" target="_blank"><i class="link"></i></a>
+                            <a class="img-btn"  href="https://github.com/rajeshg0ud/TenaciousDevTech-Shopp" target="_blank"><i class="link-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="portfolio-item-col">
+                    <div class="portfolio-img">
+                        <h2>Apex Project</h2>
+                        <img class="img-fluid" src="img/project/project4.png" alt="project1">
+                        <div class="portfolio-btn">
+                            <a class="img-btn" href="https://appxxproject.vercel.app/" target="_blank"><i class="link"></i></a>
+                            <a class="img-btn"  href="https://github.com/rajeshg0ud/appxxproject" target="_blank"><i class="link-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-col">
+                    <div class="portfolio-img">
+                        <h2>ReadIt: Your Personal Reading List Manager (React)</h2>
+                        <img class="img-fluid"  src="img/project/project2.png" alt="project1">
+                        <div class="portfolio-btn">
+                            <a class="img-btn"   href="https://books-reading-list.vercel.app/" target="_blank"><i class="link"></i></a>
+                            <a class="img-btn"  href="https://github.com/rajeshg0ud/bookreadinglistapp" target="_blank"><i class="link-code"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-col">
+                    <div class="portfolio-img">
+                        <h2>NikeShoeStore: Discover the Latest Styles</h2>
                         <img class="img-fluid" src="img/project/project1.png" alt="project1">
                         <div class="portfolio-btn">
                             <a class="img-btn"  href="https://rajeshg0ud.github.io/Nikee/" target="_blank"><i class="link"></i></a>
@@ -156,27 +194,10 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="portfolio-item-col">
+                
+                <div class="portfolio-item-col" id="login1">
                     <div class="portfolio-img">
-                        <img class="img-fluid"  src="img/project/project2.png" alt="project1">
-                        <div class="portfolio-btn">
-                            <a class="img-btn"   href="https://books-reading-list.vercel.app/" target="_blank"><i class="link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item-col">
-                    <div class="portfolio-img">
-                        <img class="img-fluid" src="img/project/project3.png" alt="project1">
-                        <div class="portfolio-btn">
-                            <a class="img-btn" href="https://appxxproject.vercel.app/" target="_blank"><i class="link"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item-col">
-                    <div class="portfolio-img">
+                        <h2> Professional Login Interface</h2>
                         <img class="img-fluid"  src="img/project/login1.png" alt="project1">
                         <div class="portfolio-btn">
                             <a class="img-btn" href="https://rajeshg0ud.github.io/LoginProfessional/login.html" target="_blank"><i class="link"></i></a>
@@ -187,6 +208,7 @@
 
                 <div class="portfolio-item-col">
                     <div class="portfolio-img">
+                        <h2> Login Page</h2>
                         <img class="img-fluid"  src="img/project/login2.png" alt="project1">
                         <div class="portfolio-btn">
                             <a class="img-btn"  href="https://rajeshg0ud.github.io/login-page1/" target="_blank"><i class="link"></i></a>
@@ -197,6 +219,7 @@
 
                 <div class="portfolio-item-col">
                     <div class="portfolio-img">
+                        <h2> Login Page</h2>
                         <img class="img-fluid"  src="img/project/login3.png" alt="project1">
                         <div class="portfolio-btn">
                             <a class="img-btn"  href="https://rajeshg0ud.github.io/login2/login2.html" target="_blank"><i class="link"></i></a>
@@ -211,7 +234,7 @@
 
     <!--Contact Start-->
     
-    <div class="contact-container">
+    <div  id="contact" class="contact-container">
         <div class="contact-container">
             <div class="contact-roww">
                 <div class="col">
@@ -240,38 +263,36 @@
                         <a  href="https://www.instagram.com/tenacious_developer" target="_blank" class="instagram"><i class="fab fa-instagram"></i> </a>
                         <a  href="https://www.youtube.com/@TenaciousDeveloper" target="_blank" class="youtube"><i class="fab fa-youtube"></i> </a>
                         <a href="https://github.com/rajeshg0ud" target="_blank"  class="github"><i class="fab fa-github"></i> </a>
-                      </div>                      
+                    </div>                      
                     <!--Follow end-->
                 </div>
 
                 <div class="form-col">
-                    <form class="contact">
-                                    <input class="from-control" placeholder="Your Name">
-                                
-                                    <input class="from-control" placeholder="Your Email">
-                               
-                                    <input class="from-control" placeholder="Subject">
-                                
-                                    <textarea class="from-control" placeholder="Message"></textarea>
-
+                    <form class="contact" id="contactForm">
+                        <input class="from-control" type="text" placeholder="Your Name" name="name" required>
+                        <input class="from-control" type="email" placeholder="Your Email" name="email" required>
+                        <input class="from-control" type="text" placeholder="Subject" name="subject" required>
+                        <textarea class="from-control" placeholder="Message" name="message" required></textarea>
                         <div class="col-12">
-                            <button class="contact-button" >Send Message</button>
+                            <button class="contact-button" type="submit">Send Message</button>
                         </div>
                     </form>
-                </div>
+                </div>                
+                        
             </div>
         </div>
     </div>
     <!--Footer start-->
     <div class="footer-maincontainer">
         <div class="footer-container">
-                <div class="col">  &copy <a href="" >rajeshg0ud </a>  , All Rights Reserved. </div>
+                <div class="col">  &copy <a href="https://github.com/rajeshg0ud" >rajeshg0ud </a>  , All Rights Reserved. </div>
 
-                <div class="col"> Designed By <a href="">Rajesh </a> </div>
+                <div class="col"> Designed By <a href="https://github.com/rajeshg0ud">Rajesh </a> </div>
         </div>
     </div>
     <!--Footer end-->
 
+    <!--skill progress js-->
     <script>
         const progressBars = document.querySelectorAll('.progress-child');
 
@@ -279,6 +300,49 @@
         const ariaValueNow = parseFloat(progressBar.getAttribute('aria-valuenow'));
         progressBar.style.width = `${ariaValueNow}%`;});
     </script>
+<!--contact js-->
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
 
+        alert('Unable to send email, please try again later!');
+    });
+</script>
+<!--navigation click js-->
+<script>
+    document.querySelectorAll('a.nav-link').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<!--nav-bar hidden js-->
+<script>
+    const navbar = document.getElementById('navbar');
+let isNavbarHidden = true;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    if (isNavbarHidden) {
+      navbar.classList.remove('hidden-nav');
+      isNavbarHidden = false;
+    }
+  } else {
+    if (!isNavbarHidden) {
+      navbar.classList.add('hidden-nav');
+      isNavbarHidden = true;
+    }
+  }
+});
+
+</script>
 </body>
 </html>
