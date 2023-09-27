@@ -57,12 +57,12 @@ nav{
   .hidden-nav {
     display: none;
   }
-  
-<<<<<<< HEAD
-/*introduction*/
-=======
-/*introduction */
->>>>>>> 4a98a4957ec737d26b252ac7530fc667940fffb0
+
+  /* Add this style to highlight the active navigation item */
+.nav-item a.active {
+  color: #1ac6ff; /* Change this to the desired active color */
+}
+
 
 .display-profile{
     display: flex;
@@ -224,8 +224,20 @@ nav{
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 auto;
-    max-width: 45%;
-    margin: 1rem;
+    max-width: 40%;
+    margin:1.5rem 3rem;
+}
+.portfolio-item-colL{
+  display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    max-width: 30%;
+    margin:1.5rem 1rem;
+}
+.portfolio-img:hover{
+  background-color: #f5f5f5da;
+  border-radius: 1px;
+  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .portfolio-img{
@@ -233,12 +245,11 @@ nav{
     overflow: hidden;
 }
 .portfolio-img h2{
-  color: #0077b7;
+  color: #000000;
 }
 .img-fluid{
     max-width: 100%;
     height: auto;
-    border-radius: 15px;
 }
 .portfolio-btn {
     display: flex;
@@ -251,10 +262,19 @@ nav{
     display: inline-block;
     margin: 5px;
     font-size: 24px;
-    margin-left: 5rem;
+    margin-left: 5.1rem;
     margin-right: 6rem;
   }
   
+  .portfolio-item-colL .portfolio-btn a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
   .portfolio-btn a i {
     font-size: inherit;
   }
@@ -521,11 +541,7 @@ input:focus,textarea:focus{
   display: flex;
   flex-wrap: wrap;
   flex: 0 0 auto;
-<<<<<<< HEAD
-  max-width: 97%;
-=======
-  max-width: 96%;
->>>>>>> 4a98a4957ec737d26b252ac7530fc667940fffb0
+   max-width: 97%;
 }
 .portfolio-img{
   position: relative;
@@ -607,8 +623,4 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 16px 25px;
   font-size: small;
 }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4a98a4957ec737d26b252ac7530fc667940fffb0
