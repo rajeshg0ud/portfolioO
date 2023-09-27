@@ -541,16 +541,30 @@ input:focus,textarea:focus{
   display: flex;
   flex-wrap: wrap;
   flex: 0 0 auto;
-   max-width: 97%;
+   max-width: 94%;
+   margin:1.3rem 1.3rem;
+}
+.portfolio-item-colL{
+  max-width: 80%;
+  margin:1.3rem 2.7rem;}
+.portfolio-title{
+  font-size: medium;
+  font-weight: 700;
 }
 .portfolio-img{
   position: relative;
   overflow: hidden;
+  width: 90%;
+}
+.portfolio-img:hover{
+  background-color: #f5f5f5da;
+  border-radius: 1px;
+  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
 }
 .img-fluid{
-  max-width: 95%;
+  width: 100%;
   height: auto;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .portfolio-btn a {
@@ -560,7 +574,13 @@ input:focus,textarea:focus{
   padding: 4px;
   font-size: x-small;
 }
-
+.portfolio-item-colL .portfolio-btn a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px;
+  padding: 4px;
+  font-size: x-small;
+}
 
 .link::before {
   content: "view project"; 
