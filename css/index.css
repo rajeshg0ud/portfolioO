@@ -234,18 +234,19 @@ nav{
     max-width: 30%;
     margin:1.5rem 1rem;
 }
-.portfolio-img:hover{
-  background-color: #f5f5f5da;
-  border-radius: 1px;
-  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
+.portfolio-title{
+  font-size: x-large;
+  font-weight: 700;
+  color: #000000;
 }
-
 .portfolio-img{
     position: relative;
     overflow: hidden;
 }
-.portfolio-img h2{
-  color: #000000;
+.portfolio-img:hover{
+  background-color: #f5f5f5da;
+  border-radius: 1px;
+  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
 }
 .img-fluid{
     max-width: 100%;
