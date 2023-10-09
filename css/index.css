@@ -120,7 +120,9 @@ nav{
     border-radius: 25px;
     margin-top: 15px;
     cursor: pointer;
-    width: 200px;
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
     box-shadow:0  5px 5px 3px rgba(0, 0, 0, 0.1) ;
 }
 .profile-btn:hover{
@@ -253,6 +255,11 @@ nav{
     max-width: 100%;
     height: auto;
 }
+/* for live projects future purpose
+iframe{
+  width: 520px;
+  min-height: 450px;
+}*/
 .portfolio-btn {
     display: flex;
     flex-wrap: wrap;
