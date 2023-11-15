@@ -426,7 +426,7 @@ input:focus,textarea:focus{
       
   .nav-link{
     padding: 0;
-    padding-left: 5.2px;
+    padding-left: 4.6px;
     color: var(--dark);
     font-size: 13px;
     font-weight: 500;
@@ -435,8 +435,8 @@ input:focus,textarea:focus{
   }
   
   .nav-logo{
-    margin: 1.4px;
-    padding: 5px 5px;
+    margin: 1.35px;
+    padding: 4.5px 4.5px;
     font-size: 19px;
     color: white;
   }
