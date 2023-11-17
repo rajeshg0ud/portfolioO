@@ -471,12 +471,13 @@ input:focus,textarea:focus{
 }
 .profile-btn{
   font-size: small;
-  padding: 8px;
+  padding: 4.5px;
   border: 2px outset #04bcf9;
   border-radius: 22px;
   margin-top: 10px;
   cursor: pointer;
   width: 110px;
+  height:15px;
 }
 .display-content{
   display: flex;
