@@ -477,7 +477,7 @@ input:focus,textarea:focus{
   border-radius: 22px;
   margin-top: 10px;
   cursor: pointer;
-  width: 140px;
+  width: 110px;
 }
 .display-content{
   display: flex;
