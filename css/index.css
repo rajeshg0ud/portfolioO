@@ -519,7 +519,10 @@ input:focus,textarea:focus{
 }
 
 .display-col{
-  padding: 9.5px;
+  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
+  margin: 10px;
+  padding:0px 14px;
+  margin-left:0px;
 }
 
 .display-col h4{
