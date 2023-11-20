@@ -1,10 +1,10 @@
-body{ 
-    margin: 0%; 
+
+body{
+    margin: 0%;
     padding: 0%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(249, 248, 248);
 }
-
 /*navigationn bar*/
 nav{
     position: fixed; 
@@ -58,7 +58,7 @@ nav{
   }
 
   /* Add this style to highlight the active navigation item */
-.nav-item a.active {
+  .nav-item a.active {
   color: #1ac6ff; /* Change this to the desired active color */
 }
 
@@ -175,7 +175,6 @@ nav{
   background-color: #4caf50; /* Progress bar color */
   width:  0;
 }
-
 
 .container-Edu-row{
   display: flex;
@@ -410,6 +409,8 @@ input:focus,textarea:focus{
   justify-content: space-between;
 }
 
+
+
 /*mobile version*/
 @media (max-width: 767px) {
   /*navigationn bar*/
@@ -471,13 +472,12 @@ input:focus,textarea:focus{
 }
 .profile-btn{
   font-size: small;
-  padding: 6.8px;
+  padding: 8px;
   border: 2px outset #04bcf9;
   border-radius: 22px;
   margin-top: 10px;
   cursor: pointer;
   width: 110px;
-  height:15px;
 }
 .display-content{
   display: flex;
@@ -510,19 +510,16 @@ input:focus,textarea:focus{
   margin-left: 6%;
 }
 .container-Skill-row{
-  flex:0 0 90%;
-  max-width: 85%;
+  flex:0 0 100%;
+  max-width: 100%;
 }
 .container-Skill-row h1{
+  padding-top:15px ;
   font-size: large;
 }
 
-.container-Edu-row{
-  display: flex;
-}
-
 .display-col{
-  padding: 38px;
+  padding: 9.5px;
 }
 
 .display-col h4{
