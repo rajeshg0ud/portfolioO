@@ -34,7 +34,7 @@ nav{
     margin: 0 10px;
     padding: 20px 15px;
     color: rgb(44, 44, 44);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     outline: none;
     text-decoration: none;
@@ -103,20 +103,13 @@ nav{
     padding: 15% 0% 0% 7%;
     font-size: x-large;
 }
-.profile-heading{
-    font-size: 59px;
-    padding: 0px;
-    font-weight: 800;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    text-shadow: 5px 5px 3px rgba(39, 44, 44, 0.062); 
-}
+
 .profile-text{
-    font-size: 59px;
-    margin-top: -16px;
-    margin-bottom: 0px;
+    font-size: 56px;
+    margin-top: -5px;
+    margin-bottom: 2px;
     font-weight: 800;
-    text-shadow: 5px 5px 3px rgba(39, 44, 44, 0.062); 
+    text-shadow: 5px 5px 3px rgba(162, 210, 255, 0.737); 
   }
 
 .display-content p{
@@ -128,9 +121,9 @@ nav{
 .profile-btn{
     background-color: #04bcf9;
     color: white;
-    font-size: 18px;
-    padding: 16px;
-    padding-bottom: 19px;
+    font-size: 15px;
+    padding: 14px;
+    padding-bottom: 16px;
     border: 2px outset #04bcf9;
     border-radius: 25px;
     margin-top: 13px;
@@ -487,12 +480,6 @@ input:focus,textarea:focus{
   font-size: 24px;
   text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
 }
-.profile-heading{
-  font-size: 31px;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
-}
 .profile-text{
   font-size: 31px;
   margin: 2px 0px;
@@ -501,6 +488,7 @@ input:focus,textarea:focus{
 .profile-btn{
   font-size: 12px;
   padding: 9px;
+  padding-bottom: 7px;
   border: 2px outset #04bcf9;
   border-radius: 22px;
   margin-top: 5px;
