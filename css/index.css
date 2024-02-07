@@ -491,7 +491,7 @@ input:focus,textarea:focus{
 .profile-btn{
   font-size: 12px;
   padding: 9px;
-  padding-bottom: 7px;
+  padding-bottom: 5px;
   border: 2px outset #04bcf9;
   border-radius: 22px;
   margin-top: 5px;
