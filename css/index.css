@@ -106,12 +106,13 @@ nav{
 }
 
 .profile-text{
-    font-size: 60px;
+    font-size: 61px;
     margin-top: -5px;
     margin-bottom: 5px;
     color: #333333;
     font-weight: 900;
     text-shadow: 5px 5px 3px rgba(162, 210, 255, 0.737); 
+    font-family: 'Rubik', sans-serif;
   }
 
 .display-content p{
@@ -157,7 +158,7 @@ nav{
   padding-bottom: 40px;
 }
 .container-Skill-row{
-  flex:0 0 46%;
+  flex:0 0 47%;
   margin: 15px 23px 15px 0px;
   padding: 20px;
   max-width: 55%;
@@ -322,6 +323,7 @@ iframe{
     transform: translate(-50%, -50%);
     background-color: rgba(34, 35, 36, 0.651); /* Adjust the alpha value for the desired darkness */
     color: white; /* Adjust the text color for better visibility */
+    font-family: 'Rubik', sans-serif;
   }
   
   .img-btn{
@@ -331,7 +333,6 @@ iframe{
 .link::before {
     content: "view project"; 
     font-size: large;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
     padding: 4px;
     background-color: #000000;
     border: 2px solid black;
@@ -339,8 +340,7 @@ iframe{
   }
 .link-code::before{
   content: "view code";
-  font-size: large;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  font-size: large;  
   padding: 4px;
   background-color: #000000;
   border: 2px solid black;
@@ -545,6 +545,7 @@ input:focus,textarea:focus{
 }
 .container-Skill-row{
   flex:0 0 100%;
+  margin: 15px 5px 15px -12px;
   max-width: 100%;
 }
 .container-Skill-row h1{
@@ -631,8 +632,7 @@ input:focus,textarea:focus{
 
 .link::before {
   content: "view project"; 
-  font-size: large;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
   padding: 4px;
   background-color: #000000;
   border: 2px solid black;
@@ -640,8 +640,7 @@ input:focus,textarea:focus{
 }
 .link-code::before{
 content: "view code";
-font-size: large;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;padding: 4px;
+font-size: medium;
 background-color: #000000;
 border: 2px solid black;
 border-radius: 10px;
