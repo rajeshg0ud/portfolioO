@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Rajesh Portfolio</title>
     <link href="man.ico" rel="icon">
     <link rel="stylesheet" href="css/index.css"> 
 
@@ -14,14 +14,18 @@
     <!--NavBar Start-->
     <nav  id="navbar" class="hidden-nav">
         <div class="navbar">
-            <ul>
+            <ul class="navbar-flex">
+                <div>
+                   <li class="nav-item"> <a href="index.html" class="nav-linkk"> <img src="man.jpg" /> RAJESH BUDIDI
+                </a></li>
+                </div>
+                <div>
                 <li class="nav-item"><a class="nav-link" href="#home">Home</a> </li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Skills</a> </li>
-                <li class="nav-item"><a class="nav-logo-link" href="index.html">
-                    <h1 class="nav-logo">|'R'|</h1>
-                </a></li>
+                
                 <li class="nav-item"><a class="nav-link" href="#projects">Projects</a> </li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a> </li>
+                </div>
             </ul>
         </div>
     </nav>
@@ -31,9 +35,9 @@
         <div id="home"class="container">
             <div class="display-profile">
                 <div class="display-content">
-                    <h2 class="profile-txt">I'm</h2>
-                    <h2 class="profile-heading">Rajesh Budidi</h2>
-                    <div class="profile-text">a Frontend Developer</div>
+                    <h2 class="profile-heading">I'm Rajesh</h2>
+                    <h2 class="profile-text"> Frontend Developer.</h2>
+                    <p>I like making simple and effective frontend products for great user experiences.</p>
                     <a class="profile-btn" href="https://bit.ly/rajesh_resume_a" target="_blank">Download Resume</a>
                 </div>
                 <div class="profile-img">
@@ -47,12 +51,11 @@
     <!-- Skills Section Start -->
     <div>
         <div id="skills" class="container-SE">
+            <h2 >Experience: Fresher</h2>
             <div class="container-SE-row">
                 <div class="container-Skill-row">
-                    <h1 >Skills & Experience</h1>
-                    <h3 >Fresher</h3>
                     <h3 >My Skills</h3>
-                    <div class="skills-container">
+                    <div id="'skill-child" class="skills-container">
                         <div class="skills-row">
                             <div class="skill-sep">
                                 <div class="skills-roww">
@@ -119,8 +122,8 @@
                 </div>
 
                 <div class="container-Skill-row">
-                    <h1>Education</h1>
-                    <div class="container-Edu-row">
+                    <h3>Education</h3>
+                    <div id="'skill-child" class="container-Edu-row">
                         <div class="display-col">
                             <h4>B.Tech in ECE</h4>
                             <h5>JBIT</h5>
@@ -128,7 +131,7 @@
                             <h6 >7.57 CGPA</h6>
                         </div>
 
-                        <div class="display-col">
+                        <div id="'skill-child" class="display-col">
                             <h4>Diploma in ECE</h4>
                             <h5 >Govt Polytechnic</h5>
                             <h6 >2016 - 2019</h6>
@@ -153,6 +156,7 @@
                     <div class="portfolio-title">QuicKart: Order Groceries Online!</div>
                 <div class="portfolio-img">
                     <img class="img-fluid"  src="img/project/project-2.png" alt="project2">
+                    
                     <div class="portfolio-btn">
                         <a class="img-btn"   href="https://quickart.vercel.app/" target="_blank"><i class="link"></i></a>
                         <a class="img-btn"  href="https://github.com/rajeshg0ud/QuicKart" target="_blank"><i class="link-code"></i></a>
@@ -173,7 +177,7 @@
 
 
                 <div class="portfolio-item-col">
-                    <div class="portfolio-title">ReactCart: Simple E-Commerce App</div>
+                    <div class="portfolio-title">ReactCart: E-Commerce App</div>
                 <div class="portfolio-img">
                     <img class="img-fluid"  src="img/project/project3.png" alt="project1">
                     <div class="portfolio-btn">
@@ -196,6 +200,17 @@
                     </div>
                 </div>
 
+                <div class="portfolio-item-col">
+                    <div class="portfolio-title"> Expense Tracker</div>
+                <div class="portfolio-img">
+                    <img class="img-fluid" src="img/project/project5.png" alt="project1">
+                    <div class="portfolio-btn">
+                        <a class="img-btn" href="https://expense-tracker-xi-neon.vercel.app/" target="_blank"><i class="link"></i></a>
+                        <a class="img-btn"  href="https://github.com/rajeshg0ud/expenseTracker" target="_blank"><i class="link-code"></i></a>
+                    </div>
+                </div>
+                </div>
+
                  <!--<div class="portfolio-item-col">
                         <div class="portfolio-title">ReadIt: Your Personal Reading List Manager</div>
                     <div class="portfolio-img">
@@ -208,16 +223,6 @@
                     </div>
                 </div> 
                 
-                <div class="portfolio-item-col">
-                    <div class="portfolio-title"> Expense Tracker</div>
-                <div class="portfolio-img">
-                    <img class="img-fluid" src="img/project/project5.png" alt="project1">
-                    <div class="portfolio-btn">
-                        <a class="img-btn" href="https://expense-tracker-xi-neon.vercel.app/" target="_blank"><i class="link"></i></a>
-                        <a class="img-btn"  href="https://github.com/rajeshg0ud/expenseTracker" target="_blank"><i class="link-code"></i></a>
-                    </div>
-                </div>
-                </div>
 
                 <div class="portfolio-item-col">
                         <div class="portfolio-title">NikeShoeStore: Discover the Latest Styles</div>
@@ -281,10 +286,7 @@
         <div class="contact-container">
             <div class="contact-roww">
                 <div class="col">
-                    <h1>Let's Work Together</h1>
-                </div>
-                <div class="row">
-                    <a class="hello-button">Say Hello</a>
+                    <h2>Let's Work Together</h2>
                 </div>
             </div>
             
