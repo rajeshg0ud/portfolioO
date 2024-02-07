@@ -121,7 +121,7 @@ nav{
 
 .display-content p{
   color: #3f3f3f;
-  font-weight: 550;
+  font-weight: 500;
   font-size: 22px;
 }
 
@@ -505,7 +505,7 @@ input:focus,textarea:focus{
   border-radius: 22px;
   margin-top: 5px;
   cursor: pointer;
-  width: 114px;
+  width: 106px;
 }
 .display-content{
   display: flex;
@@ -549,12 +549,12 @@ input:focus,textarea:focus{
 }
 
 .display-col{
-  margin: 10px;
-  padding:0px 14px;
+  padding:0px 0 0 28px;
   margin-left:0px;
 }
 
 .display-col h4{
+  font-size: 15px;
   text-decoration: underline;
 }
 
