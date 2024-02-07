@@ -2,7 +2,8 @@
 body{
     margin: 0%;
     padding: 0%;
-    font-family: "SF UI Text", "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
+    font-family: 'Nunito', sans-serif;
+
     background-color: rgb(249, 248, 248);
 }
 /*navigationn bar*/
@@ -83,12 +84,12 @@ nav{
 .display-content{
     display: flex;
     flex-direction: column;
-    flex: 0 0 45%;
+    flex: 0 0 49%;
     max-width: 55%;
 }
 .profile-img{
     display: flex;
-    flex: 0 0 42%;
+    flex: 0 0 40%;
     max-width: 45%;
     margin-top: 30px;
 }
@@ -105,17 +106,18 @@ nav{
 }
 
 .profile-text{
-    font-size: 56px;
+    font-size: 60px;
     margin-top: -5px;
-    margin-bottom: 2px;
-    font-weight: 800;
+    margin-bottom: 5px;
+    color: #333333;
+    font-weight: 900;
     text-shadow: 5px 5px 3px rgba(162, 210, 255, 0.737); 
   }
 
 .display-content p{
   color: #3f3f3f;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .profile-btn{
@@ -123,14 +125,14 @@ nav{
     color: white;
     font-size: 15px;
     padding: 14px;
-    padding-bottom: 16px;
+    padding-bottom: 11px;
     border: 2px outset #04bcf9;
-    border-radius: 25px;
+    border-radius: 12px;
     margin-top: 13px;
     cursor: pointer;
     font-weight: 600;
     text-shadow: 2px 2px 2px rgba(30, 31, 31, 0.55); 
-    width: 153px;
+    width: 161px;
     height: 20px;
     text-decoration: none;
     box-shadow:0  5px 5px 3px rgba(0, 0, 0, 0.1) ;
@@ -155,13 +157,10 @@ nav{
   padding-bottom: 40px;
 }
 .container-Skill-row{
-  flex:0 0 47%;
-  background-color: white;
-  border-radius: 10px;
+  flex:0 0 46%;
   margin: 15px 23px 15px 0px;
   padding: 20px;
   max-width: 55%;
-  box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
 }
 .container-Skill-row #skill-child{
   display: flex;
@@ -198,7 +197,13 @@ nav{
 
 .container-Edu-row{
   display: flex;
+  flex-direction: column;
 }
+.container-Edu-row p{
+  font-size: 17px;
+  width: 98%;
+}
+
 
 .display-col{
   padding: 38px;
@@ -210,6 +215,10 @@ nav{
 
 .display-col h6{
   color: #6a6a70;
+}
+
+.linkedIn a{
+  color: #04bcf9;
 }
 
 /*Project */
@@ -394,7 +403,7 @@ input:focus,textarea:focus{
 }
 .contact-button{
   border: 2px outset #04bcf9;
-  border-radius: 15px;
+  border-radius: 12px;
   padding: 10px;
   font-size: 14px;
   margin: 10px;
@@ -484,21 +493,12 @@ input:focus,textarea:focus{
   font-size: small;
 }
 .profile-text{
-  font-size: 29px;
+  font-size: 26px;
   margin: 5px -2px;
   font-weight: 700;
   text-shadow: 2px 2px 2px rgba(162, 210, 255, 0.737); 
 }
-.profile-btn{
-  font-size: 12px;
-  padding: 9px;
-  padding-bottom: 5px;
-  border: 2px outset #04bcf9;
-  border-radius: 22px;
-  margin-top: 5px;
-  cursor: pointer;
-  width: 119px;
-}
+
 .display-content{
   display: flex;
   flex-direction: column;
@@ -508,6 +508,18 @@ input:focus,textarea:focus{
 }
 .display-content p{
   font-size: medium;
+}
+.profile-btn{
+  font-size: 12px;
+  padding: 9px;
+  padding-bottom: 5px;
+  border: 2px outset #04bcf9;
+  border-radius: 12px;
+  margin-top: 5px;
+  margin-right: 24px;
+  cursor: pointer;
+  width: 128px;
+  align-self: flex-end;
 }
 .profile-img{
   display: flex;
@@ -549,7 +561,13 @@ input:focus,textarea:focus{
   font-size: 15px;
   text-decoration: underline;
 }
+.container-Edu-row{
+  width: 105%;
+}
 
+.container-Edu-row p{
+  font-size: 15px;
+}
 /*project*/
 
 .project-heading{
@@ -658,7 +676,7 @@ border-radius: 10px;
 }
 .contact-button{
   border: 2px outset #04bcf9;
-  border-radius: 15px;
+  border-radius: 11.7px;
   padding: 7px;
   font-size: 12px;
   margin: 10px;
@@ -720,5 +738,6 @@ border-radius: 10px;
     .contact-roww .col h1{
       font-size: 40px;
     }
+
 }
 
