@@ -322,13 +322,22 @@ iframe{
 .link::before {
     content: "view project"; 
     font-size: large;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    padding: 4px;
+    background-color: #000000;
+    border: 2px solid black;
+    border-radius: 10px;
   }
 .link-code::before{
   content: "view code";
   font-size: large;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+  padding: 4px;
+  background-color: #000000;
+  border: 2px solid black;
+  border-radius: 10px;
 }
+
   
 #login1{
   margin-right: 10rem ;
@@ -474,16 +483,10 @@ input:focus,textarea:focus{
   padding: 15% 0% 0% 7%;
   font-size: small;
 }
-.profile-txt{
-  padding: 0px;
-  margin: 0px;
-  font-size: 24px;
-  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
-}
 .profile-text{
-  font-size: 31px;
+  font-size: 26px;
   margin: 2px 0px;
-  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); 
+  text-shadow: 5px 5px 3px rgba(162, 210, 255, 0.737); 
 }
 .profile-btn{
   font-size: 12px;
@@ -493,7 +496,7 @@ input:focus,textarea:focus{
   border-radius: 22px;
   margin-top: 5px;
   cursor: pointer;
-  width: 106px;
+  width: 119px;
 }
 .display-content{
   display: flex;
