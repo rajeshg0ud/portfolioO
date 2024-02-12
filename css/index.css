@@ -525,7 +525,7 @@ input:focus,textarea:focus{
   margin-top: 5px;
   margin-right: 24px;
   cursor: pointer;
-  width: 128px;
+  width: 124px;
   align-self: flex-end;
 }
 .profile-img{
