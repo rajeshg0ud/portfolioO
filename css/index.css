@@ -224,7 +224,7 @@ nav{
 
 /*Project */
 .project-container{
-  max-width: 1280px; 
+  max-width: 1400px; 
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -247,15 +247,20 @@ nav{
     flex-wrap: wrap;
     margin-right: -0.5rem;
     margin-left: -0.5rem;
-    gap: 1rem; /* Adjust the gap according to your design */
+    gap: 0.5rem; /* Adjust the gap according to your design */
   }
   
 .portfolio-item-col{
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 auto;
-    max-width: 25%;
-    margin:1.5rem 3rem;
+    max-width: 30%;
+    margin:1.5rem 1rem;
+}
+
+.portfolio-item-coll{
+  max-width: 450px;
+  margin:1.5rem 0rem;
 }
 
 .portfolio-img{
@@ -264,6 +269,21 @@ nav{
     transition: transform 0.4s ease-in-out;
     border-radius: 15px;
     margin-top: 10px;
+  }
+
+  .portfolio-imgg{
+    object-fit: cover;
+    margin: 2rem;
+    overflow: hidden; 
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .portfolio-imgg:hover{
+    margin: 2rem;
+    transform: scale(1.05);
+    background-color: #f5f5f5da;
+    border-radius: 15px;
+    box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
   }
 
 .portfolio-img:hover{
@@ -301,7 +321,6 @@ iframe{
     margin-right: 6rem;
   }
 
-
   .portfolio-btn a i {
     font-size: inherit;
   }
@@ -325,7 +344,7 @@ iframe{
     transition: opacity 0.5s ease; /* Transition the opacity property over 0.3 seconds with ease-in-out timing function */
   }
   
-  .portfolio-item-col:hover .portfolio-btn {
+  .portfolio-item-col:hover .portfolio-btn, .portfolio-item-coll:hover .portfolio-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,7 +544,7 @@ input:focus,textarea:focus{
   margin-top: 5px;
   margin-right: 24px;
   cursor: pointer;
-  width: 117px;
+  width: 124px;
   align-self: flex-end;
 }
 .profile-img{
