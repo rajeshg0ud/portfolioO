@@ -258,22 +258,9 @@ nav{
     margin:1.5rem 1rem;
 }
 
-.portfolio-item-coll{
-  max-width: 450px;
-  margin:2rem 0rem;
-}
-
 .portfolio-img{
-    position: relative;
-    overflow: hidden; 
-    transition: transform 0.4s ease-in-out;
-    border-radius: 15px;
-  }
-
-  .portfolio-imgg{
-    object-fit: cover;
     margin: 1rem;
-    margin-top: 3rem;
+    position: relative;
     overflow: hidden; 
     transition: transform 0.4s ease-in-out;
     border-radius: 15px;
