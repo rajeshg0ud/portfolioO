@@ -260,7 +260,7 @@ nav{
 
 .portfolio-item-coll{
   max-width: 450px;
-  margin:1.5rem 0rem;
+  margin:2rem 0rem;
 }
 
 .portfolio-img{
@@ -268,25 +268,25 @@ nav{
     overflow: hidden; 
     transition: transform 0.4s ease-in-out;
     border-radius: 15px;
-    margin-top: 10px;
   }
 
   .portfolio-imgg{
     object-fit: cover;
-    margin: 2rem;
+    margin: 1rem;
+    margin-top: 3rem;
     overflow: hidden; 
     transition: transform 0.4s ease-in-out;
+    border-radius: 15px;
   }
 
-  .portfolio-imgg:hover{
-    margin: 2rem;
+  .portfolio-imgg:hover{ 
     transform: scale(1.05);
     background-color: #f5f5f5da;
     border-radius: 15px;
     box-shadow: 0 4px 9px 4px rgba(0, 0, 0, 0.1); 
   }
 
-.portfolio-img:hover{
+.portfolio-img:hover{    
   transform: scale(1.05);
   background-color: #f5f5f5da;
   border-radius: 15px;
