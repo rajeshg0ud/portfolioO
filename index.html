@@ -21,7 +21,11 @@
         <div class="navbar">
             <ul class="navbar-flex">
                 <div>
+<<<<<<< HEAD
+                   <li class="nav-item"> <a href="index.html" class="nav-linkk"> RAJESH BUDIDI
+=======
                    <li class="nav-item"> <a href="index.html" class="nav-linkk"> <img src="man.jpg" /> RAJESH BUDIDI
+>>>>>>> 4143574f7a1d60b3f401acff57d37cecab0ca9cf
                 </a></li>
                 </div>
                 <div>
@@ -40,13 +44,22 @@
             <div class="display-profile">
                 <div class="display-content">
                     <h2 class="profile-text">HELLO, I'M RAJESH</h2>
+<<<<<<< HEAD
+                    <h2 class="profile-text"> FRONTEND DEVELOPER</h2>
+                    <p>I like making simple & effective frontend products for great user experiences.</p>
+                    <a class="profile-btn" href="https://bit.ly/rajesh_resume_a" target="_blank">DOWNLOAD RESUME</a>
+=======
                     <h2 class="profile-text"> FRONTEND DEVELOPER.</h2>
                     <p>I like making simple & effective frontend products for great user experiences.</p>
                     <a class="profile-btn" href="https://bit.ly/rajesh_resume_a" target="_blank">DOWNLOAD RESUME</a>
                 </div>
                 <div class="profile-img">
                     <img class="display-profile-img" src="img/BO1.png" alt="man image">
+>>>>>>> 4143574f7a1d60b3f401acff57d37cecab0ca9cf
                 </div>
+                <!--<div class="profile-img">
+                    <img class="display-profile-img" src="img/BO1.png" alt="man image">
+                </div>-->
             </div>
         </div>
     </div>
@@ -60,7 +73,11 @@
             <div class="container-SE-row">
 
                 <div class="container-Skill-row">
+<<<<<<< HEAD
+                    <h3>ABOUT ME</h3>
+=======
                     <h3>About Me</h3>
+>>>>>>> 4143574f7a1d60b3f401acff57d37cecab0ca9cf
                     <div id="skill-child" class="container-Edu-row">
                         <p>I recently graduated with a degree in <b>Electronics and Communication Engineering,</b> and I'm currently immersed in the world of web development. Focused on crafting seamless frontend-backend integrations to elevate user experiences, I actively contribute to the success of web projects. You can explore some of my hands-on work in the <b>Projects section.</b></p>
 
@@ -74,7 +91,11 @@
 
 
                 <div class="container-Skill-row">
+<<<<<<< HEAD
+                    <h3 >MY SKILLS</h3>
+=======
                     <h3 >My Skills</h3>
+>>>>>>> 4143574f7a1d60b3f401acff57d37cecab0ca9cf
                     <div id="'skill-child" class="skills-container">
                         <div class="skills-row">
                             
@@ -170,9 +191,16 @@
 
     <!-- Projects Start -->
     <div  id="projects" class="project-container">
+<<<<<<< HEAD
+            <h3 class="project-heading">PROJECTS</h3>
+        <div class="container" id="rrrrr">
+            <div class="portfolio-container-row" id="projectsS">
+
+=======
         <div class="container">
             <div class="project-heading">Projects</div>
             <div class="portfolio-container-row">
+>>>>>>> 4143574f7a1d60b3f401acff57d37cecab0ca9cf
 
 
                 <div class="portfolio-item-col">
@@ -323,6 +351,8 @@
                     </div>
                 </div>-->
             </div>
+            <button class="scroll-btn" id="prev-btn">&lt;</button>
+            <button class="scroll-btn" id="next-btn">&gt;</button>
         </div>
     </div>
     <!--Projects End-->
@@ -340,7 +370,7 @@
             <div class="contact-row">
                 <div class="col">
                     <p>My office:</p>
-                    <h3>123 Hyderabad, Telangana</h3>
+                    <h3>123, Hyderabad, Telangana</h3>
                     <hr>
                     <p>Call me:</p>
                     <h3>+91 9441049014</h3>
@@ -416,7 +446,21 @@
         });
     });
 </script>
-<!--nav-bar hidden js-->
+
+<!--project scroll-->
+<script>document.getElementById('prev-btn').addEventListener('click', function() {
+    const projectContainer= document.getElementById('projectsS');
+    projectContainer.style.scrollBehavior='smooth';
+    projectContainer.scrollLeft -= 426
+});
+
+document.getElementById('next-btn').addEventListener('click', function() {
+    const projectContainer= document.getElementById('projectsS');
+    projectContainer.style.scrollBehavior='smooth';
+    projectContainer.scrollLeft += 426; // Adjust scroll amount
+});
+</script>
+<!--nav-bar hidden js
 <script>
     const navbar = document.getElementById('navbar');
 let isNavbarHidden = true;
@@ -435,6 +479,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-</script>
+</script>-->
 </body>
 </html>
