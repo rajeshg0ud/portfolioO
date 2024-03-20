@@ -275,7 +275,7 @@ nav{
 }
 
 .portfolio-img{
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 0rem;
     position: relative;
     overflow: hidden; 
     transition: transform 0.4s ease-in-out;
@@ -569,6 +569,7 @@ input:focus,textarea:focus{
 }
 .display-content p{
   font-size: 15px;
+  margin-left: 7%;
 }
 .profile-btn{
   font-size: 12px;
@@ -642,6 +643,13 @@ skills*/
 .container-Edu-row p{
   font-size: 15px;
 }
+
+
+.skills-row{
+  display: flex;
+  justify-content: space-between;
+  max-width: 103%;
+}
 /*project*/
 
 .project-heading{
@@ -669,6 +677,7 @@ skills*/
 .portfolio-item-colL{
   max-width: 80%;
   margin:1.3rem 2.7rem;}
+
 .portfolio-title{
   font-size: medium;
   font-weight: 700;
@@ -802,8 +811,12 @@ border-radius: 10px;
   max-width: 88%;
 }
 
-
+.display-content p{
+  margin-left: 10%;
+}
   /*skills*/
+
+
 .container-SE{ 
 font-size: medium;
 width: 100%;
