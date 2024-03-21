@@ -844,7 +844,8 @@ border-radius: 10px;
 }
 
 .display-content p{
-  margin-left: 10%;
+  font-size: medium;
+  width: 50%;
 }
   /*skills*/
 
