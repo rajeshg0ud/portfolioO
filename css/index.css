@@ -7,6 +7,7 @@ body{
     background-color: rgb(249, 248, 248);
 }
 /*navigationn bar*/
+
 nav{
     position: fixed; 
     top: 0;
@@ -107,6 +108,7 @@ nav{
 .display-content{
     padding: 15% 0% 0% 4%;
     font-size: x-large;
+    position: relative;
 }
 
 .profile-text{
@@ -118,8 +120,13 @@ nav{
     text-shadow: 5px 5px 3px rgba(186, 187, 188, 0.737); 
     font-family: 'Rubik', sans-serif;
     word-spacing: 8px;
+    transition: color 0.2s ease-out; 
   }
-  
+  /* rgb(255, 79, 16)*/
+  .profile-text:hover{
+    color:  black;
+    cursor: pointer;
+  }
 
 .display-content p{
   font-weight: 500;
@@ -147,6 +154,24 @@ nav{
 .profile-btn:hover{
   border: 1px inset rgb(37, 37, 37);
   letter-spacing: 0.2px;
+}
+
+.display-contact{
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 230px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 8px;
+  box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
+}
+.display-contact a{
+  padding: 7px;
+}
+ .fa-linkedin, .fa-github, .fa-envelope{
+  font-size: 28px;
 }
 /*Skills and Education*/
 .container-SE{ 
@@ -587,6 +612,9 @@ input:focus,textarea:focus{
 .profile-btn:hover{
   border: 1px inset rgb(37, 37, 37);
   letter-spacing: 0.1px;
+}
+.display-contact{
+  display: none;
 }
 
 /* .profile-img{
