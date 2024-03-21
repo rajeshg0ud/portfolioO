@@ -567,6 +567,9 @@ input:focus,textarea:focus{
   }
   
 /*introdution or profile*/
+.container{
+  padding-top: 22px;
+}
 
   .display-profile{
     display: flex;
@@ -580,7 +583,7 @@ input:focus,textarea:focus{
 }
 .profile-text{
   font-size: 24px;
-  margin: 24px 0 0 6%;
+  margin: 8px 0 0 5%;
   font-weight: 700;
   font-family: 'Rubik', sans-serif;
   word-spacing: 4.5px;
