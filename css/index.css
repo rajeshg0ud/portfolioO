@@ -599,6 +599,7 @@ input:focus,textarea:focus{
 .display-content p{
   font-size: 15px;
   max-width: 97%;
+  margin-left: 2.2%;
 }
 .profile-btn{
   font-size: 12px;
@@ -846,6 +847,7 @@ border-radius: 10px;
 .display-content p{
   font-size: medium;
   width: 50%;
+  margin-left: 1%;
 }
   /*skills*/
 
