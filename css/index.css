@@ -552,7 +552,7 @@ input:focus,textarea:focus{
     padding-left: 4.6px;
     color: var(--dark);
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 700;
     outline: none;
     text-decoration: none;
   }
