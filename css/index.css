@@ -550,7 +550,7 @@ input:focus,textarea:focus{
   .nav-link{
     padding: 0;
     padding-left: 4.6px;
-    color: var(--dark);
+    color: rgb(39, 39, 39);
     font-size: 13px;
     font-weight: 700;
     outline: none;
@@ -607,7 +607,7 @@ input:focus,textarea:focus{
   padding-bottom: 8px;
   margin-top: 5px;
   margin-right: 24px;
-  width: 130px;
+  width: 134px;
   align-self: center;
   cursor: pointer;
   box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
