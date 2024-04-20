@@ -61,7 +61,7 @@
 
     <!-- Skills Section Start -->
     <div>
-        <div id="skills" class="container-SE">
+        <div class="container-SE">
             
             
             <div class="container-SE-row">
@@ -80,9 +80,9 @@
 
 
 
-                <div class="container-Skill-row">
+                <div class="container-Skill-row"  id="skills">
                     <h3 >MY SKILLS</h3>
-                    <div id="'skill-child" class="skills-container">
+                    <div id="skill-child" class="skills-container">
                         <div class="skills-row">
                             
                             <div class="skill-sep">
@@ -431,7 +431,7 @@
             const targetElement = document.getElementById(targetId);
 
             window.scrollTo({
-                top: targetElement.offsetTop,
+                top: targetElement.offsetTop - 34, 
                 behavior: 'smooth'
             });
         });
