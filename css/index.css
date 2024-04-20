@@ -599,7 +599,7 @@ input:focus,textarea:focus{
   font-size: 16.6px;
   max-width: 97%;
   margin-left: 2.7%;
-  color: black;
+  color: rgb(37, 37, 37);
 }
 .profile-btn{
   font-size: 12.8px;
