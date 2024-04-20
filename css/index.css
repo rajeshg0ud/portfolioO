@@ -579,8 +579,8 @@ input:focus,textarea:focus{
   font-size: small;
 }
 .profile-text{
-  font-size: 34.68px;
-  font-family: Impact,'Rubik',  sans-serif;
+  font-size: 27px;
+  font-family: Impact, 'Rubik',  sans-serif;
   margin-left: -15px;
   color: black;
   font-weight: 500;
@@ -596,7 +596,7 @@ input:focus,textarea:focus{
   margin: 8px 0 0 3%;
 }
 .display-content p{
-  font-size: 17.6px;
+  font-size: 17px;
   max-width: 97%;
   margin-left: 2.7%;
 }
