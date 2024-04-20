@@ -115,7 +115,7 @@ nav{
     font-weight:500;
      /*  text-shadow: 5px 5px 3px rgba(207, 207, 207, 0.737);
    text-shadow: none; */
-    font-family: Impact, sans-serif;
+    font-family: Impact, 'Rubik', sans-serif;
     word-spacing: 5.3px;
     letter-spacing: 1px;
     transition: color 0.2s ease-out; 
@@ -579,8 +579,8 @@ input:focus,textarea:focus{
   font-size: small;
 }
 .profile-text{
-  font-size: 34.7px;
-  font-family: Impact, sans-serif;
+  font-size: 34.68px;
+  font-family: Impact,'Rubik',  sans-serif;
   margin-left: -15px;
   color: black;
   font-weight: 500;
@@ -818,6 +818,7 @@ border-radius: 10px;
   }
   .profile-text{
     font-size: 32px;
+
   }
   /*.profile-img{
     display: flex;
