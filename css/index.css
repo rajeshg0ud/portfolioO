@@ -579,11 +579,11 @@ input:focus,textarea:focus{
   font-size: small;
 }
 .profile-text{
-  font-size: 33.6px;
-  font-family:  Impact, 'Oswald', 'Rubik',  sans-serif;
+  font-size: 30px;
+  font-family: 'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;
   margin-left: -15px;
   color: black;
-  font-weight: 500;
+  font-weight: bolder;
   text-shadow: none;
 }
 
