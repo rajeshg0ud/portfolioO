@@ -140,7 +140,8 @@ nav{
     padding: 14px;
     padding-bottom: 11px;
     border-radius: 30px;
-    margin-top: 13px;
+    margin-top: 66px;
+    margin-bottom: -54px;
     cursor: pointer;
     font-weight: 600;
     width: 165px;
@@ -582,7 +583,7 @@ input:focus,textarea:focus{
   /*'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;*/
 .profile-text{
   font-size: 34px; 
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', Impact,'Rubik','Acme', sans-serif;
   margin-left: -19px;
   color: black; 
   font-weight:bolder;
@@ -829,7 +830,7 @@ border-radius: 10px;
   }
   .profile-text{
     font-size: 32px;
-    font-family:  'Acme', 'Oswald',  Impact, sans-serif;
+    font-family:  'Acme', 'Oswald', 'Rubik' ,'Segoe UI', Tahoma, Geneva, Verdana, Impact, sans-serif;
     font-weight: 600;
   }
   /*.profile-img{
@@ -951,3 +952,5 @@ font-size: 14px;
 
 
 }
+
+
