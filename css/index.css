@@ -19,8 +19,8 @@ nav{
     box-shadow: 0 4px 13px 5px rgba(0, 0, 0, 0.1); 
     padding: 23px;
     z-index: 1;
+} 
 
-}
 .navbar-flex {
   display: flex;
   width: 100%;
@@ -578,13 +578,20 @@ input:focus,textarea:focus{
   padding: 15% 0% 0% 0%;
   font-size: small;
 }
+
+  /*'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;*/
 .profile-text{
-  font-size: 28.3px;
-  font-family: 'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;
-  margin-left: -15px;
-  color: black;
-  font-weight: bolder;
+  font-size: 34px; 
+  margin-left: -19px;
+  color: black; 
+  font-weight: 500;
   text-shadow: none;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+.display-profile p{
+  margin-top: 26px;
+  font-size: large;
 }
 
 .display-content{
@@ -603,11 +610,12 @@ input:focus,textarea:focus{
 }
 .profile-btn{
   font-size: 12.8px;
-  padding: 13px;
-  padding-bottom: 8px;
-  margin-top: 5px;
+  padding: 16px;
+  padding-bottom: 10px;
+  margin-top: 5.9dvh;
   margin-right: 24px;
-  width: 134px;
+  margin-bottom: -70px;
+  width: 140px;
   align-self: center;
   cursor: pointer;
   box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
@@ -941,4 +949,5 @@ font-size: 14px;
 
 
 }
+
 
