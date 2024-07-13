@@ -111,7 +111,7 @@ nav{
     font-size: 75px;
     margin-top: -5px;
     margin-bottom: 5px;
-    color: black;
+    color: rgb(23, 23, 23);
     font-weight:500;
      /*  text-shadow: 5px 5px 3px rgba(207, 207, 207, 0.737);
    text-shadow: none; */
@@ -144,7 +144,7 @@ nav{
     margin-bottom: -54px;
     cursor: pointer;
     font-weight: 600;
-    width: 165px;
+    width: 168px;
     height: 20px;
     text-decoration: none;
     box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
@@ -582,12 +582,12 @@ input:focus,textarea:focus{
 
   /*'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;*/
 .profile-text{
-  font-size: 34px; 
+  font-size: 32.5px; 
   font-family: 'Oswald', Impact,'Rubik','Acme', sans-serif;
   margin-left: -19px;
-  color: black; 
+  color: rgb(33, 30, 30);
   font-weight:bolder;
-  -webkit-text-stroke: 1.1px rgb(30, 28, 28);
+  -webkit-text-stroke: 0.9px rgb(33, 30, 30);
   text-shadow: none;
   word-spacing: 1px;
   letter-spacing: 1px;
@@ -618,7 +618,7 @@ input:focus,textarea:focus{
   margin-top: 5.9dvh;
   margin-right: 24px;
   margin-bottom: -70px;
-  width: 140px;
+  width: 143px;
   align-self: center;
   cursor: pointer;
   box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
