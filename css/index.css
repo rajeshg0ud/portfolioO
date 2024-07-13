@@ -582,15 +582,13 @@ input:focus,textarea:focus{
 
   /*'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;*/
 .profile-text{
-  font-size: 32.5px; 
+  font-size: 32px; 
   font-family: 'Oswald', Impact,'Rubik','Acme', sans-serif;
-  margin-left: -19px;
+  margin-left: -22px;
   color: rgb(33, 30, 30);
   font-weight:bolder;
   -webkit-text-stroke: 0.9px rgb(33, 30, 30);
   text-shadow: none;
-  word-spacing: 1px;
-  letter-spacing: 1px;
 }
 .display-profile p{
   margin-top: 26px;
@@ -955,4 +953,3 @@ font-size: 14px;
 
 
 }
-
