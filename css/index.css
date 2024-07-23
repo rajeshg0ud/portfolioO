@@ -584,7 +584,7 @@ input:focus,textarea:focus{
 
   /*'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;*/
 .profile-text{
-  font-size: 25px; 
+  font-size: 23.3px; 
   font-family:'Rubik', 'Acme', 'Oswald', Impact,'Rubik','Acme', sans-serif;
   margin-left: -14px; 
   color: rgb(36, 33, 33);
@@ -604,7 +604,7 @@ input:focus,textarea:focus{
 }
 .display-content p{
   margin-top: 1px;
-  font-size: 14px; 
+  font-size: 13.5px; 
   margin-left: -10px;
   color: rgb(94, 88, 88);
 }
