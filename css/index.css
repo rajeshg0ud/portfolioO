@@ -604,8 +604,8 @@ input:focus,textarea:focus{
 }
 .display-content p{
   margin-top: 1px;
-  font-size: 12.7px; 
-  margin-left: -10px;
+  font-size: 12.3px; 
+  margin-left: -18px;
   color: rgb(94, 88, 88);
 }
 .profile-btn{
