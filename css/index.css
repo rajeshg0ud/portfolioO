@@ -3,6 +3,7 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: 'Nunito', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: #5f5f5f;
     background-color: rgb(249, 248, 248);
 }
@@ -17,8 +18,8 @@ nav{
     box-shadow: 0 4px 13px 5px rgba(0, 0, 0, 0.1); 
     padding: 23px;
     z-index: 1;
+} 
 
-}
 .navbar-flex {
   display: flex;
   width: 100%;
@@ -34,9 +35,10 @@ nav{
     display: inline;
     margin: 0 10px;
     padding: 20px 15px;
-    color: #7a7a7a;
+    color: black;
     font-size: 15px;
     outline: none;
+    font-weight:600;
     text-decoration: none;
 }
 .nav-linkk{
@@ -59,15 +61,9 @@ nav{
   margin: 0%;
   padding: 0%;
 }
-.nav-logo{
-    margin-left: 10px;
-    color: black;
-    padding: 14px 16px;
-    font-size: 18px;
-}
 
-  .navbar a:hover {
-    color: black;
+  .navbar a:hover, .nav-linkk:hover {
+    color:  #f8730e;
     cursor: pointer;
   }
   .hidden-nav {
@@ -84,6 +80,7 @@ nav{
     margin-bottom: 7%;
     padding-bottom: 100px;
 }
+
 .display-content{
     display: flex;
     flex-direction: column;
@@ -107,46 +104,73 @@ nav{
 .display-content{
     padding: 15% 0% 0% 4%;
     font-size: x-large;
+    position: relative;
 }
 
 .profile-text{
-    font-size: 61px;
+    font-size: 75px;
     margin-top: -5px;
     margin-bottom: 5px;
-    color: rgb(37, 37, 37);
-    font-weight:bolder;
-    text-shadow: 5px 5px 3px rgba(186, 187, 188, 0.737); 
-    font-family: 'Rubik', sans-serif;
-    word-spacing: 8px;
+    color: rgb(23, 23, 23);
+    font-weight:500;
+     /*  text-shadow: 5px 5px 3px rgba(207, 207, 207, 0.737);
+   text-shadow: none; */
+    font-family: Impact, 'Rubik', sans-serif;
+    word-spacing: 5.3px;
+    letter-spacing: 1px;
+    transition: color 0.2s ease-out; 
   }
-  
+  /* rgb(255, 79, 16) font-family: 'Rubik', sans-serif;*/
+  .profile-text:hover{
+    color:  black;
+    cursor: pointer;
+  }
 
 .display-content p{
+  margin-top: -4px;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 25px;  
 }
 
 .profile-btn{
-    background-color:  white;
+    background: transparent linear-gradient(90.17deg, #ED7600 5.06%, #E04411 96.04%) 0% 0% no-repeat;
     display: flex;
     justify-content: center;
-    color: rgb(37, 37, 37);
+    color: white;
     font-size: 15px;
     padding: 14px;
     padding-bottom: 11px;
-    border: 1px outset #333333;
-    margin-top: 13px;
+    border-radius: 30px;
+    margin-top: 66px;
+    margin-bottom: -54px;
     cursor: pointer;
     font-weight: 600;
-    width: 161px;
+    width: 168px;
     height: 20px;
     text-decoration: none;
     box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
     font-family: 'Rubik', sans-serif;
 }
 .profile-btn:hover{
-  border: 1px inset rgb(37, 37, 37);
   letter-spacing: 0.2px;
+}
+
+.display-contact{
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 230px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 8px;
+  box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
+}
+.display-contact a{
+  padding: 7px;
+}
+ .fa-linkedin, .fa-github, .fa-envelope{
+  font-size: 28px;
 }
 /*Skills and Education*/
 .container-SE{ 
@@ -197,7 +221,7 @@ nav{
 }
 .progress {
   width: 90%;
-  background-color: #dededee1;
+  background-color: rgb(221, 221, 221);
   border-radius: 4px;
   height: 6px;
   overflow: hidden;
@@ -205,7 +229,7 @@ nav{
 
 .progress-child {
   height: 100%;
-  background-color: #676767; /* Progress bar color */
+  background-color: #0bcf0be1; /* Progress bar color */
   width:  0;
 }
 
@@ -275,7 +299,7 @@ nav{
 }
 
 .portfolio-img{
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 0rem;
     position: relative;
     overflow: hidden; 
     transition: transform 0.4s ease-in-out;
@@ -381,16 +405,20 @@ iframe{
   position: absolute;
   top: 50%;
   right: 1%;
-  width: 30px; /* Adjust button width */
-  height: 30px; /* Adjust button height */
-  background-color: white; /* Adjust button background color */
-  border: 2px solid black; /* Adjust button border */
+  width: 37px; /* Adjust button width */
+  height: 37px; /* Adjust button height */
+  background: transparent linear-gradient(90.17deg, #ED7600 5.06%, #E04411 96.04%) 0% 0% no-repeat;  border: 2px solid black; /* Adjust button border */
   font-family: 'Rubik', sans-serif;
-  color: white;
-  background-color: black;
+  border-color:  white ;
+  color: white; 
   border-radius: 50%; /* Make button circular */
   cursor: pointer;
   z-index: 1; /* Ensure buttons appear above the project container */
+  transition: transform 0.4 ease ;
+}
+
+.scroll-btn:hover{
+  transform: scale(1.1);
 }
 #prev-btn{ 
   position: absolute;
@@ -414,7 +442,6 @@ iframe{
   padding-top: 1.5rem; /* Adjust padding according to your design */
   padding-bottom: 1.5rem; /* Adjust padding according to your design */
   padding-top: 1.25rem;
-  font-family: 'Rubik', sans-serif;
 }
 
 .col h2{
@@ -459,22 +486,24 @@ input:focus,textarea:focus{
   outline: #fff;
   box-shadow: 0 0 10px  #383838;
 }
+
 .contact-button{
-  border: 1px outset  #333333;
+  display: flex;
+  justify-content: center;
   padding: 10px;
   font-size: 14px;
   width: 125px;
   margin: 10px;
   font-weight: 700;
   font-family: 'Rubik', sans-serif;
-  color: black;
-  background-color: white;
+  background: transparent linear-gradient(90.17deg, #ED7600 5.06%, #E04411 96.04%) 0% 0% no-repeat;
+  color: white;
+  border-radius: 30px;
   cursor: pointer;   
-  box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
-
+  box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1);
+  border: none;
 }
 .contact-button:hover{
-  border-style: inset;
   letter-spacing: 0.2px;
 }
 
@@ -527,9 +556,9 @@ input:focus,textarea:focus{
   .nav-link{
     padding: 0;
     padding-left: 4.6px;
-    color: var(--dark);
+    color: rgb(39, 39, 39);
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 700;
     outline: none;
     text-decoration: none;
   }
@@ -542,23 +571,32 @@ input:focus,textarea:focus{
   }
   
 /*introdution or profile*/
+.container{
+  padding-top: 22px;
+}
 
   .display-profile{
     display: flex;
     flex-direction: column;
     margin-top: 12%;
 }
+
 .display-content{
   padding: 15% 0% 0% 0%;
-  margin-left: -10px;
   font-size: small;
 }
+
+  /*'Acme', 'Oswald',  Impact,'Rubik',  sans-serif;*/
 .profile-text{
-  font-size: 26px;
-  margin: 5px -2px;
-  font-weight: 700;
-  font-family: 'Rubik', sans-serif;
+  font-size: 23.3px; 
+  font-family:'Rubik', 'Acme', 'Oswald', Impact,'Rubik','Acme', sans-serif;
+  margin-left: -14px; 
+  color: rgb(36, 33, 33);
+  font-weight:bolder;
+  -webkit-text-stroke: 0.9px rgb(33, 30, 30);
+  text-shadow: none;
 }
+ 
 
 .display-content{
   display: flex;
@@ -566,27 +604,32 @@ input:focus,textarea:focus{
   flex: 0 0 100%;
   max-width: 99%;
   padding: 15% 0% 0% 0%;
+  margin: 8px 0 0 3%;
 }
 .display-content p{
-  font-size: 15px;
-  margin-left: 10%;
+  margin-top: 1px;
+  font-size: 12.3px; 
+  margin-left: -18px;
+  color: rgb(94, 88, 88);
 }
 .profile-btn{
-  font-size: 12px;
-  padding: 9px;
-  padding-bottom: 5px;
-  margin-top: 5px;
+  font-size: 12.8px;
+  padding: 16px;
+  padding-bottom: 10px;
+  margin-top: 9.7dvh;
   margin-right: 24px;
-  width: 124px;
-  align-self: flex-end;
-  border: 1px outset #333333;
+  margin-bottom: -70px;
+  width: 143px;
+  align-self: center;
   cursor: pointer;
   box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
   font-family: 'Rubik', sans-serif;
 }
 .profile-btn:hover{
-  border: 1px inset rgb(37, 37, 37);
   letter-spacing: 0.1px;
+}
+.display-contact{
+  display: none;
 }
 
 /* .profile-img{
@@ -643,6 +686,13 @@ skills*/
 .container-Edu-row p{
   font-size: 15px;
 }
+
+
+.skills-row{
+  display: flex;
+  justify-content: space-between;
+  max-width: 103%;
+}
 /*project*/
 
 .project-heading{
@@ -670,6 +720,7 @@ skills*/
 .portfolio-item-colL{
   max-width: 80%;
   margin:1.3rem 2.7rem;}
+
 .portfolio-title{
   font-size: medium;
   font-weight: 700;
@@ -741,6 +792,9 @@ border-radius: 10px;
   color:#6a6a70 ;
   font-size: small;
 }
+.contact-row .col h3{
+  font-size:medium;
+}
 .contact-roww .col h1{
   font-size:large;
 }
@@ -751,19 +805,18 @@ border-radius: 10px;
   padding: 15px;
   margin: 10px;
 }
+
 .contact-button{
   width: 110px;
   padding: 7px;
   font-size: 12px;
   margin: 8px;
-  border: 1px outset #333333;
   cursor: pointer;
   box-shadow:0  5px 5px 3px rgba(58, 58, 58, 0.1) ;
   font-family: 'Rubik', sans-serif;
 }
 .contact-button:hover{
-  border-style: inset;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.25px;
 }
 /* footer*/
 .footer-maincontainer{
@@ -781,6 +834,8 @@ border-radius: 10px;
   }
   .profile-text{
     font-size: 32px;
+    font-family:  'Acme', 'Oswald', 'Rubik' ,'Segoe UI', Tahoma, Geneva, Verdana, Impact, sans-serif;
+    font-weight: 600;
   }
   /*.profile-img{
     display: flex;
@@ -804,7 +859,9 @@ border-radius: 10px;
 }
 
 .display-content p{
-  margin-left: 10%;
+  font-size: medium;
+  width: 50%;
+  margin-left: 1.35%;
 }
   /*skills*/
 
@@ -835,7 +892,8 @@ font-size: 14px;
   }
   .portfolio-item-colL{
     max-width: 40%;
-    margin:0.9rem 2rem;}
+    margin:0.9rem 2rem;
+  }
 
     .project-container{ 
       max-width: 1400px; 
