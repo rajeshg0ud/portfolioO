@@ -698,6 +698,10 @@ skills*/
     font-size: smaller;
   }
 
+  .skill-child {
+    font-size: xx-small;
+  }
+
   .display-col {
     padding: 0px 0 0 0px;
     margin-left: 0px;
