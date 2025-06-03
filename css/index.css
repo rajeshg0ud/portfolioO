@@ -695,7 +695,7 @@ skills*/
     font-size: large;
   }
   .skill-badge h3 {
-    font-size: x-small;
+    font-size: smaller;
   }
 
   .display-col {
