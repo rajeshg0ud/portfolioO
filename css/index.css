@@ -436,7 +436,7 @@ iframe{
 #login1 {
   margin-right: 10rem;
 }
-/* Contact */
+
 .contact-container {
   font-size: 19px;
   max-width: 1280px;
@@ -686,8 +686,9 @@ skills*/
 
   .container-Skill-row {
     flex: 0 0 100%;
-    margin: 15px 5px 15px 0px;
+    margin: 5px 5px 5px 0px;
     max-width: 100%;
+    padding: 10px;
   }
   .container-Skill-row h1 {
     padding-top: 15px;
@@ -832,6 +833,15 @@ skills*/
     margin: 10px;
   }
 
+  .skills-row .skill-badge {
+    display: flex;
+    flex-direction: row;
+    min-width: 40px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    font-size: medium;
+  }
   .contact-button {
     width: 110px;
     padding: 7px;
